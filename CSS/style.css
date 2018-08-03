@@ -1,0 +1,296 @@
+body{height: 100%;
+  font-family: "Raleway", sans-serif;
+  color: #F5F3EC;
+  background: #333;
+  margin: 0px;
+  padding: 0px;}
+
+.form{
+  background:#e6e6e6;
+  font-family:'Montserrat',sans-serif;
+  position:relative}
+  input{
+    background:none;
+    outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input:focus{border-bottom:2px solid #78788c}
+#brand{
+  margin-left: 10px !important;
+  color: #8132ff;
+  font-size: 29px;
+  font-style: italic;
+}
+#brand:hover{
+  color: #DD4B39;
+  text-decoration: none;
+  font-style: normal;
+}
+
+#navbartop{
+  padding-top: 10px;
+}
+#navbartop .dropdown{
+  margin-right: 10px;
+   font-size: 18px;
+}
+#navbartop ul{
+  margin-right: 100px;
+}
+#navbartop ul p{
+  text-align: center;
+  font-weight: bold;
+  padding: 4px;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 20px;
+  color: #8132ff;
+}
+
+#searchbar input[type=text] {
+  margin-left: 30px !important;
+  width:600px !important;
+  height: 43px !important;
+  border: 1px solid !important;
+  color: #000 !important;
+}
+
+#glyphicon-cart{
+  font-size: 30px !important;
+  padding-top: 10px;
+  color: #8132ff;
+  margin-right: 2px !important;
+}
+#glyphicon-heart{
+  font-size: 30px !important;
+  padding-top: 10px;
+  color: #8132ff;
+  margin-right: 2px !important;
+}
+#glyphicon-search{
+  color: #000;
+}
+#searchbtn{
+  padding-top: 10px 15px;
+  border: 1px solid;
+  height: 43;
+  background-color:#ffe11b !important;
+}
+#loginimg{
+  margin-right: 30px !important;
+  margin-left: 3px !important;
+}
+#glyphicon-text a{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+#glyphicon-text a:hover{
+  color: #DD4B39;
+  font-weight: bolder;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#slider{
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+#innerslider{
+  width: 100%;
+  height: 400px;
+}
+#innerslider img{
+  width: 100%;
+  height: 100%;
+}
+#innerslider h3,p{
+  color: #000;
+}
+
+#sales-products{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+#products-title h1{
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000;
+  text-transform: uppercase;
+}
+#products-title p{
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+  color: #828282;
+}
+#products-title span{
+  display: block;
+  color: #8132ff;
+  margin-bottom: 10px
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Montserrat",Arial, sans-serif;
+}
+#products-title a {
+  font-size: 18px !important;
+  text-align: center !important;
+  color: #474747 !important;
+  padding: 4px !important;
+  margin-left: 10px;
+  width: 150px;
+  border-color: #C5A1FF;
+  margin-right: 10px;
+}
+#products .item{
+  margin-top: 30px;
+}
+#products img{
+ 	display: block;
+    margin: auto;
+    width: 50%;
+    height: 150px;
+    width: 150px;
+}
+#products p{
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  color: #828282;
+  margin: auto;
+  max-height: 300px;
+  margin-bottom: 2px;
+}
+#products .lead{
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  color: #8132ff;
+  margin: auto;
+  margin-bottom: 2px;
+  font-weight: bolder;
+}
+#products a{
+  background-color:#ffe11b !important;
+  color: #000;
+  padding-top: 10px 15px;
+  border: 1px solid;
+}
+#products .spantitle{
+  margin-top: 30px;
+  display: block;
+  color: #8132ff;
+  margin-bottom: 10px
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Montserrat",Arial, sans-serif;
+}
+#products ul{
+  margin-right: 30px;
+}
+#products li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 6px;
+  text-align: center;
+  margin-top: 20px;
+}
+#products li button{
+  width: 200px;
+  height: 50px;
+  padding: 3px;
+
+}
+#products li button span{
+
+  margin-left: 10px !important;
+}
+.contact{
+  margin-top: 30px;
+  background-color: #AEB0B9;
+  padding: 10px;
+  text-align: center;
+}
+
+#contact-title h1{
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000;
+  text-transform: uppercase;
+}
+#contact-title span{
+  display: block;
+  color: #8132ff;
+  margin-bottom: 10px
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Montserrat",Arial, sans-serif;
+}
+#contact-input input[type=text], input[type=email] {
+  margin-left: 30px;
+  width:400px;
+  height: 30px;
+  color: #000;
+}
+#message input[type=text]  {
+  margin-left: 30px;
+  width:400px;
+  height: 70px;
+  color: #000;
+}
+#contact-input button{
+  background-color: #000;
+  color: #ffe11b;
+  text-align: center;
+  width: 100px;
+  margin-left: 450px;
+}
+#footer{
+  background-color: #000;
+  padding-top: 30px;
+}
+#footer-links span{
+  display: block;
+  color: #8132ff;
+  margin-bottom: 10px;
+  font-size: 14px !important;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Montserrat",Arial, sans-serif;
+}
+#footer-links li{
+  padding: 2px;
+  margin: 0px;
+  list-style: none;
+  text-align: center;
+}
+#footer-links li a{
+  color: #fff;
+  text-decoration: none;
+}
+#footer-links li a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+#social-icons{
+  list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#social-icons li{
+  padding: 2px;
+  margin: 0px;
+  display:inline;
+}
+#social-icons{
+  display:inline-block;
+    padding:10px;
+}
